@@ -22,11 +22,11 @@ padding: 3em;
 header::after{
   content: " ";
   display: block;
-  width: 150px;
+  width: 140px;
   height: 150px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) translateY(-30%) rotate(45deg);
+  transform: translateX(-60%) translateY(-30%) rotate(45deg);
   background-color: #F03E18;
 }
 
@@ -70,14 +70,12 @@ footer {
 }
 
 .linklist li{
-  margin: 2em;
+  margin: 1em;
 }
 
 .linklist a{
   color: #fff;
 
-  body {
-  margin: 40px;
 }
 
 .wrapper {
@@ -97,8 +95,6 @@ footer {
 
 }
 
-/* This is a comment
-
 
  .mywork ul{
    background:#000;
@@ -107,7 +103,6 @@ footer {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 
 
  .mywork li{
@@ -120,4 +115,5 @@ footer {
    width: 100%;
 
  }
+ /* This is a comment
  This is a comment */
