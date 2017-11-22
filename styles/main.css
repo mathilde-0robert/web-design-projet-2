@@ -1,0 +1,123 @@
+html {
+  font-size:24px;}
+
+body {
+  background-color: #ddddd;
+  color: #0B3861;
+  margin:0
+}
+
+section {
+  max-width: 35em;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+
+header {
+background-color: #F03E18;
+color: #dddddd;
+padding: 3em;
+}
+
+header::after{
+  content: " ";
+  display: block;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30%) rotate(45deg);
+  background-color: #F03E18;
+}
+
+ .nastyadvert{
+   background-image: url(img9.jpg);
+   min-height: 90vh;
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+
+ }
+
+ .nastyadvert h1{
+   font-family: 'oswalt'sans-serif;
+   font-size: 2em;
+   color: white;
+   text-align: center;
+ }
+
+ .nastyadvert .container {
+   font-size: 2em;
+   font-family: 'oswalt'sans-serif;
+   text-align: center;
+ }
+
+ .nastyadvert .container {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+footer {
+  background-color: #F03E18;
+  color: #dddddd;
+  padding: 2em;
+}
+
+.linklist{
+  list-style-type: none;
+  display: flex;
+}
+
+.linklist li{
+  margin: 2em;
+}
+
+.linklist a{
+  color: #fff;
+
+  body {
+  margin: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.img {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+
+}
+
+/* This is a comment
+
+
+ .mywork ul{
+   background:#000;
+   list-style-type: none;
+   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+ .mywork li{
+   border: #000 3px solid;
+   margin: 1em;
+   max-width: 20%;
+ }
+
+ .mywork img{
+   width: 100%;
+
+ }
+ This is a comment */
