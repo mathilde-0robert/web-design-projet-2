@@ -1,8 +1,10 @@
 html {
   font-size:24px;}
 
+
+
 body {
-  background-color: #ddddd;
+  background-color: #ddd;
   color: #0B3861;
   margin:0
 }
@@ -16,7 +18,7 @@ section {
 header {
 background-color: #F03E18;
 color: #dddddd;
-padding: 3em;
+padding: 4em;
 }
 
 header::after{
@@ -26,7 +28,7 @@ header::after{
   height: 150px;
   position: absolute;
   left: 50%;
-  transform: translateX(-60%) translateY(-30%) rotate(45deg);
+  transform: translateX(-60%) translateY(-10%) rotate(45deg);
   background-color: #F03E18;
 }
 
@@ -97,7 +99,7 @@ footer {
 
 
  .mywork ul{
-   background:#000;
+   background:#fff;
    list-style-type: none;
    display: flex;
   justify-content: space-around;
@@ -106,9 +108,9 @@ footer {
 
 
  .mywork li{
-   border: #000 3px solid;
+   border: #fff 3px solid;
    margin: 1em;
-   max-width: 20%;
+   max-width: 40%;
  }
 
  .mywork img{
