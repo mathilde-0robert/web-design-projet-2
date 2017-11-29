@@ -2,23 +2,36 @@ html {
   font-size:24px;}
 
 
-
 body {
   background-color: #fff;
   color: #0B3861;
   margin:0
 }
 
+nav {
+  background-color: #000;
+
+}
+
+nav a {
+  align-items: center;
+  text-decoration: none;
+}
+
 section {
-  max-width: 35em;
+  max-width: ;
   margin: 0 auto;
   padding-top: 45px;
 }
 
+
 header {
-background-color: #F03E18;
+background-color: #2EFEC8;
 color: #dddddd;
-padding: 4em;
+min-height: 85vh;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 header::after{
@@ -28,13 +41,13 @@ header::after{
   height: 150px;
   position: absolute;
   left: 50%;
-  transform: translateX(-60%) translateY(-10%) rotate(45deg);
-  background-color: #F03E18;
+  transform: translateX(-50%) translateY(160%) rotate(45deg);
+  background-color: #2EFEC8;
 }
 
  .nastyadvert{
    background-image: url(img9.jpg);
-   min-height: 90vh;
+   min-height: 100vh;
    background-size: cover;
    background-attachment: fixed;
    position: relative;
@@ -61,32 +74,30 @@ header::after{
 }
 
 footer {
-  background-color: #F03E18;
+  background-color: #2EFEC8;
   color: #dddddd;
   padding: 2em;
+   position: relative;
 }
 
 .linklist{
   list-style-type: none;
   display: flex;
+  margin-left: 230;
 }
 
 .linklist li{
+
   margin: 1em;
+  text-align: center;
 }
 
 .linklist a{
-  color: #fff;
+  color: #000;
+
 
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
-}
 
 .img {
   background-color: #444;
@@ -110,7 +121,7 @@ footer {
  .mywork li{
    border: #fff 3px solid;
    margin: 1em;
-   max-width: 40%;
+   max-width: 420px;
  }
 
  .mywork img{
@@ -118,4 +129,11 @@ footer {
 
  }
  /* This is a comment
+ .wrapper {
+   display: grid;
+   grid-template-columns: 100px 100px 100px;
+   grid-gap: 10px;
+   background-color: #fff;
+   color: #444;
+ }
  This is a comment */
